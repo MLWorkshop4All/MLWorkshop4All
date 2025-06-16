@@ -1,0 +1,110 @@
+{
+    "zoom": 19,
+    "car": {
+        "carIconUrl": "/assets/car.png",
+        "carIconSize": [64, 64],
+        "carIconAnchor": [32, 32], 
+        "speed": 0.0001,
+        "segment": 0.0001,  
+        "actions": {
+            "STOP": "stop",
+            "YIELD": "yield",
+            "DNE": "dne"
+        }
+    }, 
+    "startCoordinates": {
+      "lat": 40.741000,
+      "lng": -73.988000
+    },
+    "destinationCoordinates": {
+      "lat": 40.748535040383445,
+      "lng": -73.98562507511713
+    },
+
+    "mapBaseUrls": {
+      "light_no_labels": "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", 
+      "dark_no_labels": "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", 
+      "light": "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", 
+      "dark": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+      "satellite": "https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.png"
+    }, 
+
+    "trafficSigns": [
+      {
+        "type": "stop",
+        "iconUrl": "/dataset/test_images/test1_stop.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.74153308584246,
+        "lng": -73.98746977804593
+      },
+      {
+        "type": "yield",
+        "iconUrl": "/dataset/test_images/test1_yield.jpg",
+        "iconSize": [32, 32],
+        "iconAnchor": [16, 16],
+        "lat": 40.74215458131014,
+        "lng": -73.98709690692463
+      },
+      {
+        "type": "dne",
+        "iconUrl": "/dataset/test_images/test1_dne.jpg",
+        "iconSize": [32, 32],
+        "iconAnchor": [16, 16],
+        "lat": 40.74280077838326,
+        "lng": -73.98659639423214
+      },
+      
+      
+      {
+        "type": "stop",
+        "iconUrl": "/dataset/test_images/test2_stop.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.743403894580794,
+        "lng": -73.98613942078775
+      },
+      {
+        "type": "yield",
+        "iconUrl": "/dataset/test_images/test2_yield.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.74402351605819,
+        "lng": -73.98575674895855
+      },
+      {
+        "type": "dne",
+        "iconUrl": "/dataset/test_images/test2_dne.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.74464247049703,
+        "lng": -73.98527801941398
+      },
+      
+      
+      {
+        "type": "stop",
+        "iconUrl": "/dataset/test_images/test3_stop.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.745228135482265,
+        "lng": -73.98474025639209
+      },
+      {
+        "type": "yield",
+        "iconUrl": "/dataset/test_images/test3_yield.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.74583926292923,
+        "lng": -73.98429772106941
+      },
+      {
+        "type": "dne",
+        "iconUrl": "/dataset/test_images/test3_dne.jpg",
+        "iconSize": [64, 64],
+        "iconAnchor": [16, 16],
+        "lat": 40.74648645636344,
+        "lng": -73.9838831982647
+      }
+    ]
+  }
